@@ -1,13 +1,14 @@
 package ru.job4j.oop;
 
 public class Cat {
-    public String sound() {
-        return "meow-meow";
+    public void show(String name, String food) {
+        System.out.println("My nick is: " + name + " it's eat: " + food);
     }
     public static void main(String[] args) {
-        Cat peppy = new Cat();
-        Cat sparky = new Cat();
-        System.out.println("Peppy says "  + peppy.sound());
-        System.out.println("Sparky says "  + sparky.sound());
+        Cat gav = new Cat();
+        Cat black = new Cat();
+        gav.show("Gav", "stake");
+        black.show("Black", "fish");
+
     }
 }
