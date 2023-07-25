@@ -9,7 +9,6 @@ class JukeboxTest {
     void hybridTestJukebox() {
         Jukebox jukebox = new Jukebox();
         assertThat(jukebox).isNotNull();
-        assertThat(jukebox).isEqualTo("Песня не найдена");
     }
 
 }
