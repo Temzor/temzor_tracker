@@ -1,6 +1,6 @@
 # temzor_tracker
 
-## О проекте
+## О проекте [![Deployed](https://github.com/Temzor/temzor_tracker/actions/workflows/maven.yml/badge.svg)](https://github.com/Temzor/temzor_tracker/actions/workflows/maven.yml)
 
 Этот проект - консольное приложение. Пользователю отображается меню с возможностями программы.
 
