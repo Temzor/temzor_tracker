@@ -1,6 +1,6 @@
 package ru.job4j.oop.bunsaga;
 
-public class Fox extends Bun {
+public class Fox {
     public void tryEat(Bun bun) {
         bun.tryRun(true);
     }
