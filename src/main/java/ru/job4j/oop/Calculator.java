@@ -3,6 +3,17 @@ package ru.job4j.oop;
 public class Calculator {
     private final static int X = 5;
 
+    public double add(double first, double second) {
+        return first + second;
+    }
+
+    public double add(double first, double second, double third) {
+        return add(
+                first,
+                add(second, third)
+        );
+    }
+
     public static int sum(int y) {
         return X + y;
     }
@@ -10,15 +21,19 @@ public class Calculator {
     public int multiply(int y) {
         return X * y;
     }
+
     public int divide(int y) {
         return y / X;
     }
+
     public static int minus(int y) {
         return X - y;
     }
+
     public int sumAllOperation(int y) {
         return sum(y) + multiply(y) + divide(y) + minus(y);
     }
+
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         System.out.println(sum(10));
